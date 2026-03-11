@@ -14,7 +14,7 @@ Ansible permet d'automatiser des tâches comme :
 L'un des avantages principaux d'Ansible est qu'il fonctionne **sans agent** : il utilise simplement **SSH** pour communiquer avec les machines distantes. Les configurations sont décrites dans des fichiers appelés **playbooks**, écrits en **YAML**, ce qui les rend lisibles et faciles à maintenir.
 
 Dans ce TP, nous allons suivre le cours disponible ici :  
-https://formations.microlinux.fr/ansible/
+https://formations.microlinux.fr/ansible/a-propos/
 
 L'objectif est de découvrir progressivement :
 
