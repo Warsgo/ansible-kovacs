@@ -1,6 +1,6 @@
 # Compte-rendu du TP : Déploiement d'un Laboratoire Ansible avec Vagrant
 
-##  Préparation du Lab (Le contexte)
+##  Préparation du Lab
 
 Mise en place d'un environnement de travail isolé (Linux Mint sur un SSD externe) pour protéger le système principal. L'environnement a été configuré avec les outils d'infrastructure as code :
 * **VirtualBox** : Hyperviseur pour exécuter les machines virtuelles (VM).
