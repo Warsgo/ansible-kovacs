@@ -26,6 +26,8 @@ vagrant destroy -f
 
 ![Résultat du Test 01](Séance%201-Test01.png)
 
+---
+
 ##  Test 02 : Déploiement d'un parc hétérogène
 
 L'objectif était de simuler un environnement multi-systèmes représentatif de l'entreprise.
