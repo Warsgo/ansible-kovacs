@@ -5,7 +5,7 @@
 Mise en place d'un environnement de travail isolé (Linux Mint sur un SSD externe) pour protéger le système principal. L'environnement a été configuré avec les outils d'infrastructure as code :
 * **VirtualBox** : Hyperviseur pour exécuter les machines virtuelles (VM).
 * **Vagrant** : Orchestrateur pour automatiser le déploiement des VM.
-* **GAnsible** : Outils pour configurer l'infrastructure.
+* **Ansible** : Outils pour configurer l'infrastructure.
 
 ---
 
