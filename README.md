@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Ce dépôt contient les différents travaux pratiques réalisés autour de **Ansible**, un outil d’automatisation et de gestion de configuration très utilisé dans l'administration système et le DevOps.
+Ce dépôt contient les différents travaux pratiques réalisés autour de **Ansible**, un outil d’automatisation et de gestion de configuration.
 
 Ansible permet d'automatiser des tâches comme :
 
@@ -32,8 +32,10 @@ L'objectif est de découvrir progressivement :
 ---
 
 ## Structure du projet
+```
 .
 ├── README.md
 └── Test_01-Test_02/
+```
 
 Chaque dossier correspond à une série de tests ou d'exercices réalisés pendant le TP.
