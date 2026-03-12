@@ -59,7 +59,7 @@ sudo apt-add-repository ppa:ansible/ansible
 sudo apt update
 sudo apt install -y ansible
 ```
-3. Vérification et comparaison des versions
+### 3. Vérification et comparaison des versions
 
 La version issue du dépôt PPA a été affichée pour être comparée à la précédente :
 ```
@@ -69,7 +69,7 @@ ansible --version
 
 L'observation a montré que la version d'Ansible fournie par le dépôt PPA est plus récente que celle installée lors du Challenge 1. Cette différence s'explique par le fait que les dépôts officiels d'Ubuntu figent les versions pour garantir la stabilité globale du système, tandis que le dépôt PPA est directement mis à jour par les développeurs d'Ansible avec les dernières versions stables.
 
-4. Suppression de l'environnement
+### 4. Suppression de l'environnement
 
 Comme pour l'exercice précédent, la session a été fermée et l'instance Vagrant a été détruite pour libérer les ressources :
 ```
