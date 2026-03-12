@@ -44,6 +44,7 @@ Le fichier .envrc a ensuite été modifié pour exploiter la fonction expand_pat
 echo 'export ANSIBLE_CONFIG=$(expand_path ansible.cfg)' > .envrc
 direnv allow
 ```
+![Verification Variable](Direnv-Debian.png)
 La valeur de ANSIBLE_CONFIG correspondait bien au chemin absolu du fichier ansible.cfg (ex: /home/vagrant/monprojet/ansible.cfg), et cette variable restait accessible même en naviguant dans un sous-répertoire du projet.
 
 La session Debian a ensuite été clôturée :
@@ -75,6 +76,7 @@ cd test/
 echo "export TESTVAR=Yatahongaga" > .envrc
 direnv allow
 ```
+![Verification Variable](Direnv-Rocky.png)
 Le test a confirmé que la variable se chargeait et se déchargeait correctement en entrant et en sortant du répertoire.
 
 La session Rocky Linux a été clôturée :
