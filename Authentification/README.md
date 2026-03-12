@@ -47,6 +47,8 @@ Une fois la relation de confiance établie, un test a été effectué en utilisa
 
 ansible all -i target01,target02,target03 -m ping
 
+![Verification Ping](Atelier3.png)
+
 L'opération s'est déroulée avec succès. Les trois machines cibles ont renvoyé le statut SUCCESS ainsi que la réponse "ping": "pong", confirmant que le Control Host est capable de s'y connecter de manière automatisée et d'y exécuter du code Python via Ansible.
 
 ### 5. Nettoyage de l'infrastructure
