@@ -30,6 +30,8 @@ sudo apt install -y ansible
 ```
 ansible --version
 ```
+
+![Version Ansible](Atelier1-Challenge1.png)
 ### 7. Déconnectez-vous et supprimez la VM
 ```
 exit
