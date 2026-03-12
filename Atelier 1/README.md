@@ -81,3 +81,45 @@ vagrant destroy -f ubuntu
 
 
 ## Résolution du Challenge n°3
+Ce troisième exercice s'est concentré sur l'installation d'Ansible via le gestionnaire de paquets Python (PIP) au sein d'un environnement virtuel, en s'appuyant cette fois-ci sur une distribution Rocky Linux.
+
+### 1. Initialisation et connexion
+Une machine virtuelle sous Rocky Linux a été déployée, suivie de l'ouverture d'une session SSH :
+
+```
+vagrant up rocky
+vagrant ssh rocky
+```
+### 2. Préparation de l'environnement Python
+
+Le gestionnaire de paquets PIP a été installé. Une particularité de Rocky Linux a été observée à cette étape : contrairement aux systèmes basés sur Debian, le paquet python3-venv n'a pas eu besoin d'être installé, car Virtualenv est inclus de base dans les modules standard de Python sur cette distribution. L'environnement virtuel a donc pu être initialisé directement :
+```
+sudo dnf install -y python3-pip
+python3 -m venv ~/.venv/ansible
+```
+### 3. Activation et installation d'Ansible
+
+L'environnement virtuel a été activé pour isoler l'installation. L'outil PIP a d'abord été mis à jour, puis Ansible a été installé via ce dernier :
+```
+source ~/.venv/ansible/bin/activate
+pip install --upgrade pip
+pip install ansible
+```
+ ### 4. Contrôle de l'installation
+
+La vérification de la version d'Ansible a permis de confirmer le succès de l'opération dans le cadre isolé de Virtualenv :
+
+```
+ansible --version
+```
+![Version Ansible](Atelier1-Challenge3.png)
+L'approche par PIP et Virtualenv s'est avérée particulièrement pertinente pour installer une version récente d'Ansible sans risquer de créer des conflits avec les paquets Python du système hôte.
+
+5. Nettoyage et suppression de l'environnement
+
+Pour finaliser l'exercice, l'environnement virtuel a été quitté, la session a été clôturée et l'instance a été détruite de manière définitive :
+```
+deactivate
+exit
+vagrant destroy -f rocky
+```
