@@ -49,7 +49,7 @@ Création du fichier playbooks/apache-debian.yml :
           </html>
 ...
 ```
-
+![debian](debian.png)
 ### Rédaction du Playbook pour Rocky Linux (apache-rocky.yml)
 
 Un second playbook a été créé pour cibler l'hôte rocky. Sur cette distribution de la famille Red Hat, le gestionnaire de paquets est dnf. Le paquet Apache et le service associé portent le nom de httpd. . La racine web par défaut reste /var/www/html/.
@@ -83,6 +83,7 @@ Création du fichier playbooks/apache-rocky.yml :
           </html>
 ...
 ```
+![rocky](rocky.png)
 ### Rédaction du Playbook pour SUSE (apache-suse.yml)
 
 Un troisième playbook a été rédigé pour l'hôte suse. Le gestionnaire de paquets utilisé par Ansible est ici zypper. Le nom du paquet Apache et du service est apache2, mais la racine web par défaut sous SUSE diffère et se situe dans /srv/www/htdocs/.
@@ -116,6 +117,7 @@ Création du fichier playbooks/apache-suse.yml :
           </html>
 ...
 ```
+![suse](suse.png)
 ### Vérification globale et nettoyage
 
 Pour valider le bon fonctionnement des trois serveurs web, une requête curl a été envoyée depuis le Control Host vers chaque cible :
@@ -124,6 +126,7 @@ curl debian
 curl rocky
 curl suse
 ```
+![verif](verif.png)
 Chaque commande a retourné le code HTML contenant le titre (<h1>) correspondant à la distribution ciblée, confirmant le succès du déploiement hétérogène.
 
 Pour clôturer l'exercice, la session sur le nœud de contrôle a été quittée et l'ensemble des machines virtuelles a été détruit :
