@@ -59,7 +59,7 @@ Pour clôturer l'exercice, une vérification de l'espace disque de la partition 
 ansible all -a "df -h /"
 ```
 ![command](command.png)
-Contrairement aux modules d'état (package, copy, file), le module command (tout comme le module shell) n'est pas idempotent par défaut. À chaque exécution de cette commande, Ansible a retourné le statut CHANGED.
+Contrairement aux modules d'état (package, copy, file), le module command n'est pas idempotent par défaut. À chaque exécution de cette commande, Ansible a retourné le statut CHANGED.
 
 ### Nettoyage de l'infrastructure
 
