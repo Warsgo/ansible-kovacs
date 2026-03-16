@@ -86,10 +86,13 @@ Un test de journalisation et de connectivité globale a été effectué en cibla
 ansible all -m ping
 cat ~/journal/ansible.log
 ```
+![ping](Ping.png)
+![log](log.png)
 Grâce à la directive ansible_become=yes définie dans l'inventaire, Ansible dispose désormais des droits d'administration. Une commande requérant des privilèges root a été envoyée pour afficher la première ligne du fichier /etc/shadow sur toutes les cibles :
 ```
 ansible all -a "head -n 1 /etc/shadow"
 ```
+![shadow](shadow.png)
 ### Nettoyage de l'environnement
 
 Pour terminer, la session sur le Control Host a été fermée et l'ensemble des machines virtuelles de l'atelier a été détruit :
