@@ -127,7 +127,8 @@ curl rocky
 curl suse
 ```
 ![verif](verif.png)
-Chaque commande a retourné le code HTML contenant le titre (<h1>) correspondant à la distribution ciblée, confirmant le succès du déploiement hétérogène.
+
+Chaque commande a retourné le code HTML contenant le titre correspondant à la distribution ciblée, confirmant le succès du déploiement hétérogène.
 
 Pour clôturer l'exercice, la session sur le nœud de contrôle a été quittée et l'ensemble des machines virtuelles a été détruit :
 ```
