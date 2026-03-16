@@ -75,19 +75,22 @@ ansible-playbook playbooks/chrony.yml
 ```
 Lors de ce premier passage, Ansible a installé le paquet, démarré le service, et mis en place le fichier de configuration (CHANGED). La tâche de configuration ayant modifié l'état du système, la notification a été envoyée et le message RUNNING HANDLER [Restart Chrony] est apparu en fin d'exécution, confirmant le redémarrage du service pour prendre en compte les nouveaux serveurs NTP.
 
-4. Vérification de l'idempotence totale
+![install](install1.png)
+
+### Vérification de l'idempotence totale
 
 Afin de valider le comportement du handler, le playbook a été exécuté une seconde fois à l'identique :
-Bash
-
+```
 ansible-playbook playbooks/chrony.yml
+```
+Lors de cette seconde passe, Ansible a vérifié l'état des paquets, du service, et du fichier de configuration. Aucun écart n'ayant été constaté (le statut de toutes les tâches était SUCCESS / changed: false), le handler n'a pas été notifié et n'a donc pas été exécuté. Le service chronyd n'a pas subi de redémarrage inutile, garantissant ainsi l'idempotence parfaite du playbook.
 
-    💡 Observation (2ème exécution) : Lors de cette seconde passe, Ansible a vérifié l'état des paquets, du service, et du fichier de configuration. Aucun écart n'ayant été constaté (le statut de toutes les tâches était SUCCESS / changed: false), le handler n'a pas été notifié et n'a donc pas été exécuté. Le service chronyd n'a pas subi de redémarrage inutile, garantissant ainsi l'idempotence parfaite du playbook.
+![install](install2.png)
 
-5. Nettoyage de l'environnement
+### Nettoyage de l'environnement
 
 L'atelier s'est achevé par la fermeture de la session sur le Control Host et la destruction de l'ensemble de l'infrastructure virtuelle :
-Bash
-
+```
 exit
 vagrant destroy -f
+```
