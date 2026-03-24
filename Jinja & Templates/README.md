@@ -1,4 +1,4 @@
-![Python](Python_version.png)
+
 ## Atelier 18 : Configurations avec Jinja2 et les Templates
 
 Ce dix-huitième atelier a permis de mettre en pratique l'utilisation du moteur de templating **Jinja2**. L'objectif était de déployer une configuration NTP (Chrony) sur un parc hétérogène, en s'assurant que le fichier de configuration généré sur chaque cible contienne dynamiquement son propre chemin absolu en première ligne de commentaire.
