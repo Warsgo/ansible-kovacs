@@ -1,4 +1,3 @@
-![Verification Ping](Atelier3.png)
 
 ## Atelier 17 : Gestion de cibles hétérogènes avec exécution conditionnelle
 
