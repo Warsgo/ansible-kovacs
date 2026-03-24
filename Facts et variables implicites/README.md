@@ -1,5 +1,4 @@
 
-![Verification Ping](Atelier3.png)
 ## Atelier 16 : Exploitation des Facts et des Variables Implicites
 
 Ce seizième atelier a eu pour objectif la découverte et l'utilisation des *facts* (informations collectées automatiquement par Ansible sur les hôtes cibles) et des variables implicites. Plusieurs petits playbooks ont été rédigés pour interroger et afficher des métadonnées spécifiques sur les systèmes (gestionnaire de paquets, version de Python, serveurs DNS).
