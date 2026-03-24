@@ -68,7 +68,7 @@ Création du fichier playbooks/dns-info.yml :
 ```
 Résultat de l'exécution (ansible-playbook dns-info.yml) :
 La console a renvoyé les adresses IP des serveurs de résolution de noms utilisés par chacune des machines virtuelles.
-![DNS](DNS3.png)
+![DNS](DNS2.png)
 
 ### Nettoyage de l'infrastructure
 
