@@ -1,10 +1,10 @@
 
 ## Atelier 17 : Gestion de cibles hétérogènes avec exécution conditionnelle
 
-Ce dix-septième atelier a été l'occasion d'aborder la complexité liée à la gestion d'un parc de machines hétérogènes (Debian, Rocky Linux, SUSE, Ubuntu). L'objectif était d'apprendre à adapter dynamiquement les tâches d'un playbook aux spécificités de chaque distribution.
+Ce dix-septième atelier a été l'occasion d'aborder la complexité liée à la gestion d'un parc de machines hétérogènes. L'objectif était d'apprendre à adapter dynamiquement les tâches d'un playbook aux spécificités de chaque distribution.
 
 ### Initialisation de l'environnement
-L'environnement, composé de cinq machines virtuelles (un nœud de contrôle et quatre Target Hosts représentant quatre distributions différentes), a été initialisé depuis le répertoire `atelier-17`. Une connexion SSH a été établie sur le Control Host, et le répertoire de travail du projet a été rejoint :
+L'environnement, composé de cinq machines virtuelles, a été initialisé depuis le répertoire `atelier-17`. Une connexion SSH a été établie sur le Control Host, et le répertoire de travail du projet a été rejoint :
 
 ```
 cd ~/formation-ansible/atelier-17
