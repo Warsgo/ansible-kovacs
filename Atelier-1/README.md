@@ -4,35 +4,35 @@
 
 ## Résolution du Challenge n°1
 
-### 1. Démarrer la VM Ubuntu depuis le répertoire `atelier-01`
+### 1. Démarrage de la VM Ubuntu depuis le répertoire `atelier-01`
 
 ```
 vagrant up ubuntu
 ```
 
-### 2. Ce connecter à cette VM
+### 2. Connection à cette VM
 ```
 vagrant ssh ubuntu
 ```
-### 3. Rafraîchisser les informations sur les paquets
+### 3. On raffraichi les informations sur les paquets
 ```
 sudo apt update
 ```
-### 4. Rechercher le paquet ansible avec les options appropriées
+### 4. On rerche le paquet ansible avec les options appropriées
 ``` 
 apt-cache search --names-only ansible
 ```
-### 5. Installer le paquet officiel fourni par la distribution
+### 5. On installet le paquet officiel fourni par la distribution
 ```
 sudo apt install -y ansible
 ```
-### 6. Vérifier si l'installation s'est bien déroulée (et notez la version)
+### 6. Vérification si l'installation s'est bien déroulée
 ```
 ansible --version
 ```
 
 ![Version Ansible](Atelier1-Challenge1.png)
-### 7. Ce Déconnecter et supprimez la VM
+### 7.Déconnection et suppression la VM
 ```
 exit
 vagrant destroy -f ubuntu
@@ -52,8 +52,7 @@ vagrant ssh ubuntu
 ```
 #### 2. Ajout du dépôt tiers et installation
 
-Le dépôt PPA officiel maintenu par le projet Ansible a été ajouté aux sources du système. Après une mise à jour de la liste des paquets, Ansible a été installé :
-Bash
+Le dépôt PPA officiel maintenu par le projet Ansible a été ajouté aux sources du système. Après une mise à jour de la liste des paquets Ansible a été installé :
 ```
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt update
@@ -81,7 +80,7 @@ vagrant destroy -f ubuntu
 
 
 ## Résolution du Challenge n°3
-Ce troisième exercice s'est concentré sur l'installation d'Ansible via le gestionnaire de paquets Python (PIP) au sein d'un environnement virtuel, en s'appuyant cette fois-ci sur une distribution Rocky Linux.
+Ce troisième exercice s'est concentré sur l'installation d'Ansible via le gestionnaire de paquets Python au sein d'un environnement virtuel, en s'appuyant cette fois-ci sur une distribution Rocky Linux.
 
 ### 1. Initialisation et connexion
 Une machine virtuelle sous Rocky Linux a été déployée, suivie de l'ouverture d'une session SSH :
@@ -92,7 +91,7 @@ vagrant ssh rocky
 ```
 ### 2. Préparation de l'environnement Python
 
-Le gestionnaire de paquets PIP a été installé. Une particularité de Rocky Linux a été observée à cette étape : contrairement aux systèmes basés sur Debian, le paquet python3-venv n'a pas eu besoin d'être installé, car Virtualenv est inclus de base dans les modules standard de Python sur cette distribution. L'environnement virtuel a donc pu être initialisé directement :
+Le gestionnaire de paquets PIP a été installé :
 ```
 sudo dnf install -y python3-pip
 python3 -m venv ~/.venv/ansible
