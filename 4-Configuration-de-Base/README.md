@@ -3,7 +3,7 @@
 Ce sixième atelier a servi de synthèse pratique. L'objectif était de déployer une infrastructure complète de quatre machines sous Ubuntu 22.04, d'y installer Ansible, de configurer l'authentification SSH, puis d'organiser un premier répertoire de projet avec ses propres fichiers de configuration et d'inventaire.
 
 ### Initialisation de l'infrastructure et résolution DNS
-Le répertoire de travail a été positionné sur `atelier-06`. Les quatre machines virtuelles (un Control Host et trois Target Hosts) ont été démarrées via Vagrant, suivi d'une connexion SSH sur le nœud de contrôle :
+Le répertoire de travail a été positionné sur `atelier-06`. Les quatre machines virtuelles ont été démarrées via Vagrant, suivi d'une connexion SSH sur le nœud de contrôle :
 
 ```bash
 cd ~/formation-ansible/atelier-06
