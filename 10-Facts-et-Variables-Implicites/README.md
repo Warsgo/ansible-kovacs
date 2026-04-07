@@ -1,10 +1,10 @@
 
 ## Atelier 16 : Exploitation des Facts et des Variables Implicites
 
-Ce seizième atelier a eu pour objectif la découverte et l'utilisation des *facts* (informations collectées automatiquement par Ansible sur les hôtes cibles) et des variables implicites. Plusieurs petits playbooks ont été rédigés pour interroger et afficher des métadonnées spécifiques sur les systèmes (gestionnaire de paquets, version de Python, serveurs DNS).
+Ce seizième atelier a eu pour objectif la découverte et l'utilisation des *facts* et des variables implicites. Plusieurs petits playbooks ont été rédigés pour interroger et afficher des métadonnées spécifiques sur les systèmes.
 
 ### Initialisation de l'environnement
-L'environnement, composé de quatre machines virtuelles hétérogènes (Control Host, Rocky, Debian, SUSE), a été initialisé depuis le répertoire `atelier-16`. Une connexion SSH a été établie sur le nœud de contrôle, et le répertoire des playbooks a été rejoint pour activer la configuration via `direnv` :
+L'environnement, composé de quatre machines virtuelles hétérogènes, a été initialisé depuis le répertoire `atelier-16`. Une connexion SSH a été établie sur le nœud de contrôle, et le répertoire des playbooks a été rejoint pour activer la configuration via `direnv` :
 
 ```bash
 cd ~/formation-ansible/atelier-16
