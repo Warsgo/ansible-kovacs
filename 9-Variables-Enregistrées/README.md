@@ -1,4 +1,4 @@
-![var1](var1.png)
+
 ## Atelier 15 : Maîtrise des Variables Enregistrées 
 
 Ce quinzième atelier a permis de comprendre comment capturer et exploiter la sortie de commandes arbitraires exécutées sur les Target Hosts. L'objectif était d'utiliser la directive `register` pour enregistrer le résultat des modules impératifs (`command` ou `shell`) dans une variable, puis d'en afficher le contenu pertinent, tout en gérant correctement l'idempotence.
