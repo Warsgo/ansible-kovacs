@@ -28,7 +28,7 @@ Création du fichier playbooks/pkg-info.yml :
         msg: "L'hôte {{ inventory_hostname }} utilise le gestionnaire de paquets : {{ ansible_pkg_mgr }}"
 ...
 ```
-Résultat de l'exécution (ansible-playbook pkg-info.yml) :
+Résultat de l'exécution :
 L'affichage a confirmé que Debian utilise apt, Rocky utilise dnf, et SUSE utilise zypper. 
 ![Info_Gest](Info_Gest.png)
 
@@ -46,7 +46,7 @@ Création du fichier playbooks/python-info.yml :
         msg: "La version de Python sur l'hôte {{ inventory_hostname }} est la {{ ansible_python_version }}"
 ...
 ```
-Résultat de l'exécution (ansible-playbook python-info.yml) :
+Résultat de l'exécution :
 La console a affiché la version exacte de Python 3 installée sur chaque système cible.
 ![Python](Python_version.png)
 
@@ -66,7 +66,7 @@ Création du fichier playbooks/dns-info.yml :
         msg: "Les serveurs DNS configurés sur {{ inventory_hostname }} sont : {{ ansible_dns.nameservers | join(', ') }}"
 ...
 ```
-Résultat de l'exécution (ansible-playbook dns-info.yml) :
+Résultat de l'exécution :
 La console a renvoyé les adresses IP des serveurs de résolution de noms utilisés par chacune des machines virtuelles.
 ![DNS](DNS2.png)
 
