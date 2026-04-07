@@ -4,7 +4,7 @@
 Ce dix-huitième atelier a permis de mettre en pratique l'utilisation du moteur de templating **Jinja2**. L'objectif était de déployer une configuration NTP (Chrony) sur un parc hétérogène, en s'assurant que le fichier de configuration généré sur chaque cible contienne dynamiquement son propre chemin absolu en première ligne de commentaire.
 
 ### Initialisation de l'environnement
-L'environnement, composé d'un nœud de contrôle et de quatre Target Hosts hétérogènes (Rocky, Debian, SUSE, Ubuntu), a été initialisé depuis le répertoire `atelier-18`. Une connexion SSH a été établie, et le répertoire de travail a été rejoint :
+L'environnement, composé d'un nœud de contrôle et de quatre Target Hosts hétérogènes, a été initialisé depuis le répertoire `atelier-18`. Une connexion SSH a été établie, et le répertoire de travail a été rejoint :
 
 ```bash
 cd ~/formation-ansible/atelier-18
