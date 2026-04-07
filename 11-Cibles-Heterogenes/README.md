@@ -21,7 +21,7 @@ Debian / Ubuntu :
        - Service : chrony
        - Fichier de configuration : /etc/chrony/chrony.conf
        
-Rocky Linux (RedHat) :
+Rocky Linux :
        - Paquet : chrony
        - Service : chronyd
        - Fichier de configuration : /etc/chrony.conf
