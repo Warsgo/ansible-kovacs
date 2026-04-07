@@ -27,9 +27,18 @@ L'objectif est de découvrir progressivement :
 
 ## Sommaire
 
-- [Test_01 - Test_02](./Test_01-Test_02)
 - [Atelier 1](./Atelier-1)
-
+- [Authentification](./Authentification)
+- [Direnv](./Direnv)
+- [Configuration de Base](./Configuration-de-Base)
+- [Idempotence](./Ansible-et-Idempotence)
+- [Serveur Web Apache](./Serveur-Web-Apache)
+- [Les Handlers](./Handlers)
+- [Les Variables](./Variables)
+- [Les Variables Enregistrées](./Variables-Enregistrées)
+- [Facts et Variables Implicites](./Facts-et-Variables-Implicites)
+- [Cibles Hétérogènes](./Cibles-Heterogenes)
+- [Jinja & Templates](./Jinja-et-Templates)
 ---
 
 ## Structure du projet
