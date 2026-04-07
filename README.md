@@ -28,7 +28,7 @@ L'objectif est de découvrir progressivement :
 ## Sommaire
 
 - [Test_01 - Test_02](./Test_01-Test_02)
-- [Atelier 1](./Atelier 1)
+- [Atelier 1](./Atelier-1)
 
 ---
 
