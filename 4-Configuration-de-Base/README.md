@@ -66,7 +66,7 @@ log_path = ~/journal/ansible.log
 ```
 ### Configuration de l'inventaire et élévation de privilèges
 
-Un fichier d'inventaire nommé hosts a été créé à la racine du projet pour définir le groupe de machines et les variables de connexion (notamment l'utilisateur par défaut et l'élévation des droits) :
+Un fichier d'inventaire nommé hosts a été créé à la racine du projet pour définir le groupe de machines et les variables de connexion :
 ```
 nano hosts
 ```
