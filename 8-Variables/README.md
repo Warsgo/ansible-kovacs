@@ -1,6 +1,6 @@
 ##  Atelier 14 : Gestion et précédence des variables Ansible
 
-Ce quatorzième atelier a été dédié à la manipulation des variables dans Ansible. L'objectif était de comprendre comment déclarer des variables à différents endroits (dans le play, durant l'exécution, par groupe ou par hôte, de manière interactive) et d'observer les règles de précédence qui s'appliquent lorsque plusieurs définitions entrent en conflit.
+Ce quatorzième atelier a été dédié à la manipulation des variables dans Ansible. L'objectif était de comprendre comment déclarer des variables à différents endroits et d'observer les règles de précédence qui s'appliquent lorsque plusieurs définitions entrent en conflit.
 
 ### Initialisation de l'environnement
 L'environnement, composé de quatre machines virtuelles sous Rocky Linux, a été initialisé depuis le répertoire `atelier-14`. Une connexion SSH a été établie sur le nœud de contrôle, et le répertoire du projet a été rejoint pour activer la configuration via `direnv` :
