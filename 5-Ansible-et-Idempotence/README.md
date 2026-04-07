@@ -1,6 +1,6 @@
 ## Atelier 7 : Découverte et validation de l'idempotence
 
-Ce septième atelier a été dédié à la mise en pratique de l'**idempotence**, un concept fondamental d'Ansible garantissant qu'une opération exécutée plusieurs fois produira toujours le même état final, sans réappliquer inutilement des modifications si la cible est déjà dans l'état souhaité.
+Ce septième atelier a été dédié à la mise en pratique de l'**idempotence**, un concept garantissant qu'une opération exécutée plusieurs fois produira toujours le même état final, sans réappliquer inutilement des modifications si la cible est déjà dans l'état souhaité.
 
 ### Initialisation de l'environnement
 L'environnement préconfiguré de l'atelier a été démarré. Une session SSH a été ouverte sur le Control Host, puis le répertoire de travail a été positionné à la racine du projet Ansible existant :
