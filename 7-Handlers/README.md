@@ -3,7 +3,7 @@
 Ce douzième atelier a été consacré à l'intégration des **handlers**. L'objectif était de déployer et de configurer le service de synchronisation temporelle NTP (via Chrony) sur un parc de machines sous Rocky Linux. Les handlers ont été utilisés pour garantir que le redémarrage du service ne se déclenche *que* si le fichier de configuration a été effectivement modifié.
 
 ### Initialisation de l'environnement
-Le répertoire de travail a été défini sur `atelier-12`. L'infrastructure, composée de quatre machines virtuelles sous Rocky Linux (un Control Host et trois Target Hosts), a été démarrée. Une session SSH a été ouverte sur le nœud de contrôle et le répertoire du projet a été rejoint :
+Le répertoire de travail a été défini sur `atelier-12`. L'infrastructure, composée de quatre machines virtuelles sous Rocky Linux, a été démarrée. Une session SSH a été ouverte sur le nœud de contrôle et le répertoire du projet a été rejoint :
 
 ```
 cd ~/formation-ansible/atelier-12
