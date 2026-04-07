@@ -17,7 +17,7 @@ cd ansible/projets/ema/playbooks/
 
 Plutôt que d'utiliser un fichier statique avec le module copy, un template dynamique a été créé. Un répertoire templates/ a d'abord été généré à la racine du projet pour y stocker le fichier .j2.
 
-La première ligne du fichier a été modifiée pour inclure la variable {{ chrony_conf }} (qui sera définie dynamiquement dans le playbook en fonction de la distribution).
+La première ligne du fichier a été modifiée pour inclure la variable {{ chrony_conf }}.
 ```bash
 mkdir -v templates
 nano templates/chrony.conf.j2
