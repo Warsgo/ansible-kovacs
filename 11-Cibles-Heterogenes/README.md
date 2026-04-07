@@ -33,7 +33,7 @@ SUSE :
 
 ### Méthode 1 : chrony-01.yml
 
-Un premier playbook a été rédigé en utilisant une approche très explicite mais répétitive. Chaque tâche (installation, configuration, démarrage) a été dédoublée ou triplée pour s'adapter à la famille de l'OS (ansible_os_family) ou à la distribution exacte (ansible_distribution), en utilisant les gestionnaires de paquets natifs (apt, dnf, zypper).
+Un premier playbook a été rédigé en utilisant une approche très explicite mais répétitive. Chaque tâche a été dédoublée ou triplée pour s'adapter à la famille de l'OS ou à la distribution exacte, en utilisant les gestionnaires de paquets natifs.
 
 Création du fichier playbooks/chrony-01.yml :
 ```
