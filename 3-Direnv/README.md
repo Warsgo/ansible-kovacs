@@ -59,7 +59,7 @@ vagrant ssh rocky
 ```
 #### Installation manuelle
 
-Contrairement à Debian, Rocky Linux ne propose pas direnv dans ses dépôts officiels ni dans les dépôts tiers (EPEL). L'installation a donc été réalisée manuellement en téléchargeant le binaire précompilé depuis les sources officielles du projet sur GitHub, avant de lui attribuer les droits d'exécution et de configurer le shell :
+Contrairement à Debian, Rocky Linux ne propose pas direnv dans ses dépôts officiels ni dans les dépôts tiers. L'installation a donc été réalisée manuellement en téléchargeant le binaire précompilé depuis les sources officielles du projet sur GitHub, avant de lui attribuer les droits d'exécution et de configurer le shell :
 ```
 VER="2.37.1"
 sudo wget [https://github.com/direnv/direnv/releases/download/v$VER/direnv.linux-amd64](https://github.com/direnv/direnv/releases/download/v$VER/direnv.linux-amd64) -O /usr/local/bin/direnv
