@@ -31,7 +31,7 @@ Dans un premier temps, les empreintes publiques des machines cibles ont été co
 ```
 ssh-keyscan -t rsa target01 target02 target03 >> ~/.ssh/known_hosts
 ```
-Une paire de clés SSH a ensuite été générée sur le Control Host, en validant toutes les options par défaut (sans passphrase) :
+Une paire de clés SSH a ensuite été générée sur le Control Host, en validant toutes les options par défaut :
 ```
 ssh-keygen
 ```
