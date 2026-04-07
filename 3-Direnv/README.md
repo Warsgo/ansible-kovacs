@@ -39,7 +39,7 @@ direnv allow
 Le comportement dynamique a été vérifié : la variable TESTVAR était bien définie à l'intérieur du répertoire monprojet, et automatiquement déchargée en le quittant.
 #### Définition de chemins absolus
 
-Le fichier .envrc a ensuite été modifié pour exploiter la fonction expand_path, très utile pour les futurs projets Ansible. Cette fonction permet de transformer un chemin relatif en chemin absolu. La variable ANSIBLE_CONFIG a été configurée de cette manière :
+Le fichier .envrc a ensuite été modifié pour exploiter la fonction expand_path. Cette fonction permet de transformer un chemin relatif en chemin absolu. La variable ANSIBLE_CONFIG a été configurée de cette manière :
 ```
 echo 'export ANSIBLE_CONFIG=$(expand_path ansible.cfg)' > .envrc
 direnv allow
