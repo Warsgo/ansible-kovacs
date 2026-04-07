@@ -3,7 +3,7 @@
 Ce dixième atelier a eu pour objectif la création et l'exécution de trois playbooks Ansible distincts, afin de déployer un serveur web Apache basique sur trois distributions Linux différentes (Debian, Rocky Linux, et SUSE), en tenant compte de leurs spécificités (noms de paquets, gestionnaires de paquets, etc.).
 
 ### Initialisation de l'environnement
-L'environnement de travail a été positionné sur le répertoire `atelier-10`. Les quatre machines virtuelles (un Control Host et trois Target Hosts hétérogènes) ont été démarrées, suivies d'une connexion SSH sur le nœud de contrôle et d'un basculement dans le répertoire du projet Ansible :
+L'environnement de travail a été positionné sur le répertoire `atelier-10`. Les quatre machines virtuelles ont été démarrées, suivies d'une connexion SSH sur le nœud de contrôle et d'un basculement dans le répertoire du projet Ansible :
 
 ```
 cd ~/formation-ansible/atelier-10
