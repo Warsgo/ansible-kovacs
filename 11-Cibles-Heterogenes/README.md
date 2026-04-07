@@ -127,7 +127,7 @@ Création du fichier playbooks/chrony-01.yml :
 ![play1](play_1_2.png)
 ### Méthode 2 : chrony-02.yml
 
-Un second playbook a été conçu pour optimiser le code. Au lieu de multiplier les tâches, les spécificités de chaque système ont été enregistrées dans des variables dynamiques (chrony_package, chrony_service, chrony_conf). Le module générique package a été utilisé pour remplacer les appels spécifiques à apt, dnf ou zypper.
+Un second playbook a été conçu pour optimiser le code. Au lieu de multiplier les tâches, les spécificités de chaque système ont été enregistrées dans des variables dynamiques. Le module générique package a été utilisé pour remplacer les appels spécifiques à apt, dnf ou zypper.
 
 Création du fichier playbooks/chrony-02.yml :
 ```
