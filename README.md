@@ -27,18 +27,18 @@ L'objectif est de découvrir progressivement :
 
 ## Sommaire
 
-- [Atelier 1](./Atelier-1)
-- [Authentification](./Authentification)
-- [Direnv](./Direnv)
-- [Configuration de Base](./Configuration-de-Base)
-- [Idempotence](./Ansible-et-Idempotence)
-- [Serveur Web Apache](./Serveur-Web-Apache)
-- [Les Handlers](./Handlers)
-- [Les Variables](./Variables)
-- [Les Variables Enregistrées](./Variables-Enregistrées)
-- [Facts et Variables Implicites](./Facts-et-Variables-Implicites)
-- [Cibles Hétérogènes](./Cibles-Heterogenes)
-- [Jinja & Templates](./Jinja-et-Templates)
+- [Atelier 1](./1-Atelier-1)
+- [Authentification](./2-Authentification)
+- [Direnv](./3-Direnv)
+- [Configuration de Base](./4-Configuration-de-Base)
+- [Idempotence](./5-Ansible-et-Idempotence)
+- [Serveur Web Apache](./6-Serveur-Web-Apache)
+- [Les Handlers](./7-Handlers)
+- [Les Variables](./8-Variables)
+- [Les Variables Enregistrées](./9-Variables-Enregistrées)
+- [Facts et Variables Implicites](./10-Facts-et-Variables-Implicites)
+- [Cibles Hétérogènes](./11-Cibles-Heterogenes)
+- [Jinja & Templates](./12-Jinja-et-Templates)
 ---
 
 ## Structure du projet
