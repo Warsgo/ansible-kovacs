@@ -39,13 +39,4 @@ L'objectif est de découvrir progressivement :
 - [Facts et Variables Implicites](./10-Facts-et-Variables-Implicites)
 - [Cibles Hétérogènes](./11-Cibles-Heterogenes)
 - [Jinja & Templates](./12-Jinja-et-Templates)
----
 
-## Structure du projet
-```
-.
-├── README.md
-└── Test_01-Test_02/
-```
-
-Chaque dossier correspond à une série de tests ou d'exercices réalisés pendant le TP.
